@@ -2,6 +2,7 @@ project=python
 
 install:
 	. .venv/bin/activate
+	pip install -r requirements.txt
 
 in:
 	docker exec --user=php -it "$(project)_alpine" /bin/sh
