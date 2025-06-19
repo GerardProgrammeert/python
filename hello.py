@@ -24,3 +24,11 @@ my_function()
 
 x = lambda a, b : a * b
 print(x(5, 6)) 
+
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt)) 
